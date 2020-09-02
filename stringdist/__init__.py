@@ -5,7 +5,7 @@
 # the Python implementation as needed. This allows library users to import from
 # stringdist without worrying about which implementation was selected
 try:
-    from cstringdist import (levenshtein, levenshtein_norm, rdlevenshtein,
+    from .cstringdist import (levenshtein, levenshtein_norm, rdlevenshtein,
                              rdlevenshtein_norm)
 except ImportError:
     from .pystringdist import (levenshtein, levenshtein_norm, rdlevenshtein,

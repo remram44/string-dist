@@ -48,7 +48,7 @@ static PyMethodDef methods[] = {
 // Create PyModuleDef struct, which outlines the desired C extension module
 static struct PyModuleDef cstringdist = {
     PyModuleDef_HEAD_INIT,
-    "cstringdist",
+    "stringdist.cstringdist",
     "Calculates several different string distance metrics",
     -1,
     methods,

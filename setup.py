@@ -11,7 +11,7 @@ from setuptools import Extension, setup
 # default to the C99 standard (some of the included C code uses C99 syntax)
 c_directory = 'stringdist/cstringdist/'
 cstringdist = Extension(
-    'cstringdist',
+    'stringdist.cstringdist',
     sources=[
         c_directory + 'cstringdist.c',
         c_directory + 'levenshtein.c',
